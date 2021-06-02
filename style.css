@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+	transition:all ease 0.5s;
+}
+
+body {
+  
+    background: #d0d33398;
+}
+
+:hover{
+	transition:all ease 0.5s;
+}
+
+a.nav-link{
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+section header{
+	height:auto;
+	min-height: 60vh;
+}
+
+section#hello header{
+	background:silver url('https://picsum.photos/id/171/900/400') center center no-repeat;
+	background-size:cover;
+}
+
+
+#titulowork {
+    color: white !important;
+}
+
+section#work header{
+	background:silver url('https://picsum.photos/id/1073/900/400') center center no-repeat;
+	background-size:cover;	
+}
+
+section#contact header{
+	background:silver url('https://picsum.photos/id/311/900/400') center center no-repeat;
+	background-size:cover;	
+}
+
+:target:before {
+	content:"";
+	display:block;
+	height:70px;
+	margin:-70px 0 0;
+}
+
+#portfolio {
+    min-height: 250vh;
+}
+
+@media screen and (orientation :portrait) {
+    #portfolio {
+        min-height: 780vh;
+    }
+}
+#contact {
+    position: relative;
+    bottom:  0px;
+}
+
